@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html ng-app="app">
     <head>
         <meta charset="utf-8">
         <script src="angular.min.js"></script>
@@ -6,7 +7,11 @@
         <title>Hello!!!</title>
     </head>
     <body>
-        <div ng-controller="MyFirstController">
+        <h1>Test!!!!</h1>
+        <div ng-controller="nameCalulatorController">
+            <input type="text" ng-model="name" ng-keyup="displayNameNumeric();"/>
+            <div>Total Numeric Value of '{{name}}' is: {{totalValue}}</div>
+            
 
         </div>
     </body>
