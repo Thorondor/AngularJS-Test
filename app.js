@@ -10,6 +10,7 @@
             $scope.totalValue = calculateNumeric($scope.name)
         }
     });
+    
 
     function calculateNumeric(string) {
         var results = 0;
