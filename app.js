@@ -12,6 +12,8 @@
     });
     
 
+    
+
     function calculateNumeric(string) {
         var results = 0;
         for(var i = 0; i < string.length; i++) {
