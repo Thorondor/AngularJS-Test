@@ -12,7 +12,14 @@
     });
     
 
+
+
+
+
+
+
     
+
 
     function calculateNumeric(string) {
         var results = 0;
