@@ -4,8 +4,13 @@
     angular.module('DIApp', [])
     .controller('DIController', DIController);
 
-    function DIController($scope) {
+    function DIController($scope, $filter) {
         $scope.name = "Test"
+        $scope.upper = function() {
+            var upCase = $filter('uppercase');
+            $scope.name = upCase($scope.name)
+
+        };
     }
     
 
